@@ -90,8 +90,8 @@ public class RNBluetoothManagerModule extends ReactContextBaseJavaModule
 
         // If the adapter is null, then Bluetooth is not supported
         if (mBluetoothAdapter == null) {
-            Toast.makeText(this.reactContext, "Bluetooth is not available",
-                    Toast.LENGTH_LONG).show();
+            //Toast.makeText(this.reactContext, "Bluetooth is not available",
+            //        Toast.LENGTH_LONG).show();
         }
     }
 
